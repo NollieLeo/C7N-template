@@ -1,0 +1,33 @@
+import React, {
+  useEffect
+} from 'react';
+import { observer } from 'mobx-react-lite';
+import { use{{toUpperFirstName}}Store } from './stores';
+import {
+  Page, Header, Breadcrumb, Content,
+} from '@choerodon/boot';
+import {} from 'choerodon-ui/pro';
+import {} from '@choerodon/components';
+
+const {{toUpperFirstName}} = observer(() => {
+  const {
+    mainStore,
+    prefixCls,
+  } = use{{toUpperFirstName}}Store();
+
+  useEffect(()=>{
+
+  }, []);
+
+  return (
+    <Page service={[]} class={prefixCls}>
+      <Header></Header>
+      <Breadcrumb />
+      <Content>
+        {{toUpperFirstName}}
+      </Content>
+    </Page>
+  )
+})
+
+export default {{toUpperFirstName}}

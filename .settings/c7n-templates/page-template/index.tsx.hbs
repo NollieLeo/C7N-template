@@ -1,0 +1,14 @@
+import React from 'react';
+import { StoreProvider } from './stores';
+import Content from './Content';
+import { {{toUpperFirstName}}IndexProps } from './interface';
+import './index.less';
+
+const {{toUpperFirstName}}Index = (props: {{toUpperFirstName}}IndexProps) => (
+  <StoreProvider {...props}>
+    <Content />
+  </StoreProvider>
+);
+
+export default {{toUpperFirstName}}Index;
+

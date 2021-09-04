@@ -1,0 +1,19 @@
+{
+  "name": "@weng/fast-template",
+  "version": "1.0.0",
+  "description": "快速创建模板测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "plop"
+  },
+  "keywords": [
+    "plop",
+    "js"
+  ],
+  "author": "weng",
+  "license": "ISC",
+  "devDependencies": {
+    "plop": "^2.7.4"
+  }
+}
